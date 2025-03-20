@@ -1,0 +1,39 @@
+.audplayer {
+  background-color: #E6EFFF;
+  border-radius: 8px;
+  padding: 8px;
+}
+
+.audplayer-space-wb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress-audio {
+  flex: 1;
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  height: 5px;
+  background: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.progress-audio::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 12px;
+  height: 12px;
+  background: #4B5669;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.progress-audio::-moz-range-thumb {
+  width: 12px;
+  height: 12px;
+  background: #4B5669;
+  border-radius: 50%;
+  cursor: pointer;
+}

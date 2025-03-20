@@ -1,0 +1,38 @@
+{
+  "name": "audio-player-react",
+  "version": "1.0.0",
+  "description": "A simple library to manage audio tag",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": "https://abhaybraja@github.com/abhaybraja/audio-player-react.git",
+  "author": "Abhay Braja <developer@abhay.bio>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^18.2.45",
+    "css-loader": "^6.8.1",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.89.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "scripts": {
+    "build": "webpack",
+    "tsc": "tsc"
+  },
+  "peerDependencies": {
+    "react": "*"
+  },
+  "keywords": [
+    "audio",
+    "player",
+    "react"
+  ],
+  "bugs": {
+    "url": "https://github.com/abhaybraja/audio-player-react/issues"
+  },
+  "homepage": "https://github.com/abhaybraja/audio-player-react#readme",
+  "files": [
+    "./dist"
+  ]
+}
